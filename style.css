@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+   
+}
+.container{
+   
+    width: 70%;
+    margin: 0 auto;
+}
+
+.box-1{
+    background-color: grey;
+    padding: 20px;
+    border: 1px solid red;
+}
+
+.box-1 h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: sans-serif;
+    color: white;
+}
+
+.box-1 p{
+    color: white;
+}
+
+.box-2{
+   
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px dashed black;
+}
+
+.button{
+    background-color: grey;
+    color: honeydew;
+    border: 1px solid grey;
+    border-radius: 20%;
+    font-size: 18px;
+    padding: 5px 2px;
+}
+
+.button:hover{
+    border: 1px solid rgb(104, 87, 87);
+    cursor: pointer;
+    background-color: white;
+    color: #222;
+}
+.button:active{
+    border: 1px solid rgb(170, 101, 101);
+}
+
+.box-3{
+    margin: 30px 0;
+    border: 1px solid black;
+    padding: 10px;   
+}
+.box-3 p{
+    text-align: center;
+    font-size: 20px;
+}
+.category{
+    padding: 0%;
+}
+.category li{
+    list-style-type: none;
+    padding: 5px ;
+    border-bottom: 1px solid #555;
+}
+.box-4{
+    margin: 30px 0;
+   
+    padding: 10px 10px; 
+}
+
+.box-4 label{
+    display: block;
+    font-size: 20px;
+    color: #555;
+}
+
+.box-4 input,.box-4 textarea{
+    margin: 8px 0;
+    padding: 5px;
+    width: 100%;
+}
+.botttom{
+    height: 100px;
+}
+.block{
+    float: left;
+    width: 33%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 2px;
+    margin: 1px;
+}
+
+.info{
+    float: left;
+    width: 70%;
+   
+}
+.info2{
+    float: right;
+    width: 30%;
+    background-color: grey;    
+    color: white;
+}
+.content{
+    margin-top: 2px;
+}
+.clr{
+    clear: both;
+}
+
+.relative{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: grey;
+    top: -30px;
+
+}
+.abosolute{
+    position: absolute;
+    background-color: hotpink;
+    width: 50px;
+    height: 50px;
+    right: 0;
+    bottom: 0;
+}
+.fixed{
+    position: fixed;
+    top: 50%;
+    left: 0;
+}
+
+.list-item li{
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.list-item li:first-child{
+    background-color: yellow;
+}
+.list-item li:last-child{
+    background-color: yellow;
+}
+.list-item li:nth-child(even){
+    background-color: tomato;
+}
+.report table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.report table th{
+    background-color: thistle;
+    border: 1px solid black;
+}
+
+.report table td{
+    background-color: chartreuse;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 18px;
+}
+
+.report table tr:nth-child(even){
+    background-color: burlywood;
+}

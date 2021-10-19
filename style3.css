@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#Head{
+    background-color: coral;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+#Head h1{
+    color: #fff;
+    font-family: sans-serif;
+    padding:10px 0;
+}
+
+#navbar{
+    background-color: #222;
+}
+#navbar ol li{
+    list-style-type: none;
+    display: inline;
+}
+
+#navbar ol li a{
+    color: #fff;
+    text-decoration: none;
+    margin: 2px;
+    padding: 5px;
+    display: inline-block;
+}
+#navbar ol li:first-child a{
+    padding-left: 0%;
+}
+
+#showcase{
+    background-image: url(Fotor.webp);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
+#showcase .info p{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+#main{
+    margin-top: 30px;
+}
+.content{
+    float: left;
+    width: 70%;
+}
+.content p{
+    text-align: left;
+}
+.sidebar{
+    float: right;
+    width: 30%;
+    background-color: black;
+}
+.sidebar p{
+    color: #fff;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 10px 5px;
+}
+.clr{
+    clear: both;
+}
+#footer{
+  
+    background-color: black;
+    text-align: center;
+    margin-top: 20px;
+    min-height: 70px;
+}
+#footer p{
+    color: white;
+    padding-top: 15px;
+}
+
+#footer a{
+    color: #333;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#footer a:hover{
+    color: tomato;
+    font-size: 18px;
+
+}
