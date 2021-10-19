@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.box{
+    float: left;
+    width: 24%;
+    text-align: center;
+    padding: 5px;
+    margin: 2px 0;
+    border: 1px solid black;
+}
+
+
+/* for mobile device */
+@media (max-width:767px){
+    .box{
+        width: 100%;
+    }
+}
+/* for tablet device */
+@media (min-width:768px) and (max-width:1023px){
+    .box{
+        width: 50%;
+    }
+}
+/* for desktop */
+@media  (min-width:1024) {
+    .box{
+        width: 25%;
+    }
+}
